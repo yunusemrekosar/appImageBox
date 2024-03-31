@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F2E9;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    background-color: red;
+}
+
+.boxes {
+    width: 430px;
+    height: 932px;
+    border-radius: 50px;
+    background: #F3F2E9;
+    border: 2px solid red;
+}
+
+.images {
+    border-radius: 25.5px;
+}
+
+.overviewTitle {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.detailsTitle {
+    /*margin-top: 5px;*/
+    color: rgba(27, 27, 27, 0.62);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.button {
+    border-radius: 20px;
+    background: linear-gradient(0deg, #1B1B1B 0%, #1B1B1B 100%), rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 13px 26px -2px rgba(0, 0, 0, 0.12);
+}
+
+.ImgBox {
+    position: absolute;
+    z-index: 1;
+}
+
+.topBox {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.topBtn {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(29, 29, 29, 0.40);
+    backdrop-filter: blur(20px);
+}
+
+.back {
+    margin-top: -3.5px;
+}
+
+.topBtnOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(29, 29, 29, 0.40);
+    backdrop-filter: blur(20px);
+}
+
+.topbtnImg {
+    width: 24px;
+    height: 24px;
+}
+
+.bottomBox {
+    width: 331px;
+    height: 104px;
+    margin-top: 200px;
+    padding: 18px 15px;
+    border-radius: 15px;
+    background: rgba(29, 29, 29, 0.30);
+    box-shadow: 0px 5px 9px 0px rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(20px);
+}
+
+.andesTitle {
+    color: #F3F2E9;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.priceTitle {
+    position: relative;
+    right: 13px;
+    top: 6px;
+    color: #CAC8C8;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.konumBox {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 18px 0;
+}
+
+.konumTitle {
+    color: #CAC8C8;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.konumIcons {
+    width: 22px;
+    height: 22px;
+}
+
+.tlBox {
+    color: #434343;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+    .tlBox span {
+        color: #CAC8C8;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: lighter;
+    }
+
+.loremTitle {
+    display: flex;
+    overflow-y: scroll;
+    width: 374px;
+    max-height: 28vh;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150.188%;
+}
+
+.sliderCard {
+    border: 1px solid #ccc;
+    margin: 20px;
+    border:none;
+    overflow: hidden; 
+  }
